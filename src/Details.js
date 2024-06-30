@@ -23,8 +23,9 @@ import postman from "./assets/techstack/postman.png";
 // Porject Images
 import projectImage4 from "./assets/projects/e_waste_app.jpeg";
 import projectImage1 from "./assets/projects/food_app.png";
-import projectImage2 from "./assets/projects/shoyeb_portfolio.png";
-import projectImage3 from "./assets/projects/destination_app.png";
+import projectImage2 from "./assets/projects/shahidPro.png";
+import projectImage3 from "./assets/projects/GymPro.png";
+import projectImage5 from "./assets/projects/studePro.png";
 
 
 // Logos
@@ -128,10 +129,28 @@ export const projectDetails = [
   {
     title: "Food App",
     image: projectImage1,
-    description: `The E-Waste Recycling App is an innovative and user-friendly Android application designed to address the growing concern of electronic waste (e-waste) and promote responsible disposal and recycling practices. This app provides a convenient and eco-conscious solution for individuals and businesses to manage their electronic waste in an environmentally sustainable way.`,
+    description: `I developed a dynamic Food App using the MERN stack, combining MongoDB, Express, React, and Node.js. This app offers a seamless user experience for browsing menus, placing orders, and managing deliveries.`,
     techstack: "Mongodb, Expressjs, React, Nodejs",
     previewLink: "https://google.com",
     githubLink: "https://github.com/shahidsayyad2325/Food-App",
+  },
+ 
+  {
+    title: "Student Management System",
+    image: projectImage5,
+    description: `I developed a PHP-based Student Management System with both frontend and backend capabilities, offering a seamless and user-friendly interface. This comprehensive solution simplifies student data management and enhances administrative efficiency.`,
+    techstack: "HTML, CSS, PHP",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/shahidsayyad2325/Student-Attendance-System",
+  },
+
+  {
+    title: "Gym Management System ",
+    image: projectImage3,
+    description: `I developed a comprehensive Gym Management System using JavaScript for both frontend and backend. This user-friendly solution streamlines member management, class scheduling, and administrative tasks to enhance gym operations.`,
+    techstack: "HTML, CSS, JS",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/shahidsayyad2325/Gym-Attendance-System",
   },
   {
     title: "Portfolio Website",
@@ -139,15 +158,7 @@ export const projectDetails = [
     description: `"Explore my dynamic React-powered portfolio website, a showcase of my skills, projects, and personality. With cutting-edge web technologies and responsive design, it ensures a flawless experience across devices. Engage with an immersive interface to delve into my work and easily connect with me. Discover the perfect blend of functionality and aesthetics in this visually captivating online portfolio."`,
     techstack: "HTML, CSS, React",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/shoyeb03/SHOYEB_SAYYAD",
-  },
-  {
-    title: "Landing Page",
-    image: projectImage3,
-    description: `I've developed a captivating destination landing page using React, featuring  visuals and user-friendly design. This page showcases our destination's beauty with quality images and smooth animations. We've incorporated the latest web technologies for responsive design, including HTML, CSS3, and JavaScript, ensuring an exceptional user experience on all devices. Explore our destination and start your journey!`,
-    techstack: "HTML, CSS, React",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/shoyeb03/LANDING_PAGE",
+    githubLink: "https://github.com/shahidsayyad2325/Portfolio",
   },
   {
     title: "E-Waste Application",
@@ -156,7 +167,7 @@ export const projectDetails = [
     project lorem ipsum generator for dummy content`,
     techstack: "Java",
     // previewLink: "https://google.com",
-    githubLink: "https://github.com/shoyeb03/E_WASTE_APP",
+    githubLink: "https://github.com/shahidsayyad2325/E-Waste-Management-System",
   },
 
 ];
